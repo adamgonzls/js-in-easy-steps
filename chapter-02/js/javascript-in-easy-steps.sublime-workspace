@@ -1,0 +1,485 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/adamgonzls/Self Study/in-easy-steps/chapter-03/index.html",
+			"settings":
+			{
+				"buffer_size": 184,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/adamgonzls/Self Study/in-easy-steps/chapter-03/index.js",
+			"settings":
+			{
+				"buffer_size": 2931,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Snippet: ",
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"hand",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"set syntax ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"list package",
+				"Package Control: List Packages"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"list",
+			"import urllib.request,os,hashlib; h = '5b468e895e861582c8ac080daaae7722' + 'a0787a887fb19723f006ed5b020ffdf6'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = '5b468e895e861582c8ac080daaae7722' + 'a0787a887fb19723f006ed5b020ffdf6'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/adamgonzls/Self Study/in-easy-steps",
+		"/Users/adamgonzls/Self Study/in-easy-steps/chapter-02",
+		"/Users/adamgonzls/Self Study/in-easy-steps/chapter-03"
+	],
+	"file_history":
+	[
+		"/Users/adamgonzls/Self Study/in-easy-steps/chapter-03/index.html",
+		"/Users/adamgonzls/Self Study/in-easy-steps/chapter-02/index.html",
+		"/Users/adamgonzls/Self Study/in-easy-steps/chapter-02/js/index.js",
+		"/Users/adamgonzls/Projects/Milestone 3/Milestone 3 Puppy Love/css/styles.css",
+		"/Users/adamgonzls/Projects/Milestone 4/CSS Dashboardv1/js/main.js",
+		"/Users/adamgonzls/Projects/Milestone 4/CSS Dashboardv1/index.html",
+		"/Users/adamgonzls/Projects/Milestone 4/CSS Dashboardv1/css/styles.css",
+		"/Users/adamgonzls/Projects/Milestone 3/Milestone 3 Twitter/index.html",
+		"/Users/adamgonzls/Projects/Milestone 3/Milestone 3 Puppy Love/index.html",
+		"/Users/adamgonzls/Projects/Milestone 5/Backbone Project/src/templates/list-users.hbs",
+		"/Users/adamgonzls/Projects/Milestone 5/Backbone Project/src/views/user-form.js",
+		"/Users/adamgonzls/Projects/Milestone 5/Backbone Project/src/views/product-form.js",
+		"/Users/adamgonzls/Projects/Milestone 5/Backbone Project/src/views/list-users.js",
+		"/Users/adamgonzls/Projects/Milestone 5/Backbone Project/src/index.js",
+		"/Users/adamgonzls/Projects/Milestone 5/Backbone Project/src/views/list-products.js",
+		"/Users/adamgonzls/Projects/Milestone 5/Backbone Project/src/templates/list-products.hbs",
+		"/Users/adamgonzls/Projects/Milestone 5/Backbone Project/src/models/product.js",
+		"/Users/adamgonzls/Projects/Milestone 5/Backbone Project/src/collections/product.js",
+		"/Users/adamgonzls/Projects/Milestone 5/Backbone Project/src/models/user.js",
+		"/Users/adamgonzls/Projects/Milestone 5/Backbone Project/src/app.js",
+		"/Users/adamgonzls/Projects/Milestone 5/Backbone Project/gulpfile.js",
+		"/Users/adamgonzls/Projects/Milestone 4/twitter project version2/gulpfile.js",
+		"/Users/adamgonzls/Projects/Milestone 5/Backbone Project/package.json",
+		"/Users/adamgonzls/Projects/Milestone 5/Backbone Project/src/collections/user.js",
+		"/Users/adamgonzls/Projects/Milestone 5/Backbone Project/index.html",
+		"/Users/adamgonzls/Projects/Milestone 5/Backbone Project/src/templates/product-form.hbs",
+		"/Users/adamgonzls/Lessons/RockIT_Notes.txt",
+		"/Users/adamgonzls/Projects/Milestone 5/Backbone Project/db copy.json",
+		"/Users/adamgonzls/Projects/Milestone 5/Backbone Project/db.json",
+		"/Users/adamgonzls/Projects/Milestone 5/Backbone Project/src/templates/products.hbs",
+		"/Users/adamgonzls/Projects/Milestone 5/Backbone Project/src/templates/user-form.hbs",
+		"/Users/adamgonzls/Projects/Milestone 5/Backbone Project/.gitignore",
+		"/Users/adamgonzls/Projects/Milestone 5/Backbone CRUD/README.md",
+		"/Users/adamgonzls/Projects/Milestone 4/twitter project version2/templates/tweet.handlebars",
+		"/Users/adamgonzls/Projects/Milestone 4/twitter project version2/js/template.js",
+		"/Users/adamgonzls/Projects/Milestone 4/twitter project version2/js/api.js",
+		"/Users/adamgonzls/Projects/Milestone 4/twitter project version2/js/index.js",
+		"/Users/adamgonzls/Projects/Acid Tests/jQuery2/main.js",
+		"/Users/adamgonzls/Projects/Milestone 4/twitter project version2/index.html",
+		"/Users/adamgonzls/Projects/Milestone 4/twitter project version2/templates/thread.handlebars",
+		"/Users/adamgonzls/Projects/Milestone 4/twitter project version2/db.json",
+		"/Users/adamgonzls/Projects/Milestone 3/Milestone 3 Twitter/js/main.js",
+		"/Users/adamgonzls/Projects/Acid Tests/jQuery2/index.html",
+		"/Users/adamgonzls/Projects/Acid Tests/jQuery2/styles.css",
+		"/Users/adamgonzls/Projects/Milestone 4/twitter project version2/templates/template.js",
+		"/Users/adamgonzls/Projects/Acid Tests/jQuery2/failversion/main.js",
+		"/Users/adamgonzls/Projects/Milestone 4/twitter project version2/js/bundle.js",
+		"/Users/adamgonzls/Projects/Milestone 4/twitter project version2/templates/compose.handlebars",
+		"/Users/adamgonzls/Projects/Milestone 4/twitter project version2/css/styles.css",
+		"/Users/adamgonzls/Projects/Milestone 4/twitter project version2/package.json",
+		"/Users/adamgonzls/Projects/Milestone 3/Milestone 3 Twitter/css/styles.css",
+		"/Users/adamgonzls/Projects/Milestone 4/twitter project version2/.gitignore",
+		"/Users/adamgonzls/Projects/Milestone 4/twitter project version2/js/main.js",
+		"/Users/adamgonzls/Projects/Milestone 4/CSS Dashboardv1/.gitignore",
+		"/Users/adamgonzls/Projects/Milestone 4/CSS Dashboardv1/images/Add User.png",
+		"/Users/adamgonzls/Projects/Milestone 4/CSS Dashboardv1/bower.json",
+		"/Users/adamgonzls/Projects/Awesomeness/gulpfile.js",
+		"/Users/adamgonzls/Projects/Awesomeness/package.json",
+		"/Users/adamgonzls/Projects/Awesomeness/css/main.css",
+		"/Users/adamgonzls/Projects/Awesomeness/sass/main.scss",
+		"/Users/adamgonzls/Projects/Awesomeness/.gitignore",
+		"/Users/adamgonzls/Projects/Awesomeness/bower.json",
+		"/Users/adamgonzls/Projects/Rockit Projects.sublime-project",
+		"/Users/adamgonzls/Projects/Milestone 3/Milestone 3 Puppy Love/old versions/index.html",
+		"/Users/adamgonzls/Projects/Milestone 3/Milestone 3 Puppy Love/old versions/css/styles.css",
+		"/Users/adamgonzls/Projects/Milestone 3 Twitter/index.html",
+		"/Users/adamgonzls/Projects/Milestone 3 Twitter/js/main.js",
+		"/Users/adamgonzls/Projects/Milestone 3 Twitter/css/styles.css",
+		"/Users/adamgonzls/Projects/Milestone 2 jQuery/js/main.js",
+		"/Users/adamgonzls/Projects/Milestone 2 jQuery/css/styles.css",
+		"/Users/adamgonzls/Projects/Milestone 2 jQuery/index.html",
+		"/Users/adamgonzls/Projects/Acid Tests/jQuery/styles.css",
+		"/Users/adamgonzls/Projects/Acid Tests/jQuery/main.js",
+		"/Users/adamgonzls/Projects/Acid Tests/jQuery/index.html",
+		"/Users/adamgonzls/Projects/Milesteone 2 jQuery/jQuery Review/index.html",
+		"/Users/adamgonzls/Projects/Milesteone 2 jQuery/jQuery Review/main.js",
+		"/Users/adamgonzls/Projects/Milesteone 2 jQuery/js/main.js",
+		"/Users/adamgonzls/Projects/Milesteone 2 jQuery/css/styles.css",
+		"/Users/adamgonzls/Projects/Milesteone 2 jQuery/index.html",
+		"/Users/adamgonzls/Projects/Milestone 2B/index.html",
+		"/Users/adamgonzls/Projects/Milestone 2B/css/styles.css",
+		"/Users/adamgonzls/Projects/Milestone 2/css/styles.css",
+		"/Users/adamgonzls/Projects/Milestone 2/index.html",
+		"/Users/adamgonzls/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/adamgonzls/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/adamgonzls/Projects/Milestone 1/index.php",
+		"/Users/adamgonzls/Projects/Milestone 1/css/styles.css",
+		"/Users/adamgonzls/Projects/Milestone 1/footer.php",
+		"/Users/adamgonzls/Projects/Milestone 1/header.php",
+		"/Users/adamgonzls/Projects/Milestone 1/contact.php",
+		"/Users/adamgonzls/Projects/Milestone 1/browse.php",
+		"/Users/adamgonzls/Projects/Milestone 1/product.php",
+		"/Users/adamgonzls/Projects/Elevator/index.php",
+		"/Users/adamgonzls/Projects/Milestone 1/images/dimension.zip",
+		"/Users/adamgonzls/Lessons/php/Basic Logic/index.php",
+		"/Users/adamgonzls/Lessons/css/Defaults/styles.css",
+		"/Users/adamgonzls/Lessons/css/Defaults/index.html",
+		"/Users/adamgonzls/Lessons/css/Basic Properties/index.html",
+		"/Users/adamgonzls/Lessons/css/Basic Properties/styles.css",
+		"/Users/adamgonzls/Lessons/css/Basic Selectors/index.html",
+		"/Users/adamgonzls/Lessons/css/Basic Selectors/styles.css",
+		"/Users/adamgonzls/Projects/RockIT Bootcamp/Lesson Notes/Milestone 1/HTML/day2_messingaround.html",
+		"/Users/adamgonzls/Projects/RockIT Bootcamp/Lesson Notes/Milestone 1/PHP/footer.php",
+		"/Users/adamgonzls/Projects/RockIT Bootcamp/Lesson Notes/Milestone 1/PHP/Basic Concepts/index.php",
+		"/Users/adamgonzls/Projects/RockIT Bootcamp/Lesson Notes/Milestone 1/PHP/Basic Concepts/names.php",
+		"/Users/adamgonzls/Projects/RockIT Bootcamp/Lesson Notes/Milestone 1/PHP/Madlib/index.php",
+		"/Users/adamgonzls/Projects/RockIT Bootcamp/Lesson Notes/Milestone 1/PHP/madlib.php",
+		"/Users/adamgonzls/Projects/RockIT Bootcamp/Lesson Notes/Milestone 1/PHP/madlib.html",
+		"/Users/adamgonzls/Projects/RockIT Bootcamp/Lesson Notes/Milestone 1/PHP/Basic Operators/index.php",
+		"/Users/adamgonzls/Projects/RockIT Bootcamp/Lesson Notes/index.html",
+		"/Users/adamgonzls/Projects/RockIT Bootcamp/Lesson Notes/Milestone 1/PHP/index.php",
+		"/Users/adamgonzls/Projects/RockIT Bootcamp/Lesson Notes/Milestone 1/PHP/numbers.php",
+		"/Users/adamgonzls/Projects/RockIT Bootcamp/Lesson Notes/Milestone 1/bigblankfile.txt",
+		"/Users/adamgonzls/Projects/RockIT Bootcamp/Lesson Notes/index.php",
+		"/Users/adamgonzls/Projects/RockIT Bootcamp/Lesson Notes/Milestone 1/Terminal Commands.txt",
+		"/Users/adamgonzls/Projects/RockIT Bootcamp/Lesson Notes/Milestone 1/Day2httpconcepts.txt",
+		"/Users/adamgonzls/Projects/RockIT Bootcamp/Lesson Notes/Milestone 1/httpconcepts.txt"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"translate",
+			"sass",
+			"translate",
+			"gitignore",
+			"git",
+			"currentUser.id",
+			"id",
+			"currentUser.id",
+			"tweetHtml",
+			"renderthread",
+			"rendertweet",
+			"build",
+			"serve",
+			"browserify",
+			"cover",
+			"break",
+			"white",
+			"h1",
+			"\n  ",
+			"radial",
+			"36pt",
+			"<figcaption>",
+			"figcaption",
+			"100px",
+			"expand",
+			"graphic",
+			"0",
+			"h5",
+			"transform",
+			"parent",
+			"4",
+			"data types",
+			"input",
+			"nesting",
+			"jquery basics",
+			"lesson 5",
+			"json",
+			"form",
+			"primitive",
+			"jquery",
+			"jquer	",
+			"append",
+			"jquery basics",
+			"basic concepts",
+			"f2",
+			"f1",
+			"border",
+			"flexbox",
+			"basic opera",
+			"javascript",
+			"input",
+			"forms",
+			"center",
+			"word wrap",
+			"allContent",
+			"\">\n",
+			"id",
+			"'",
+			" '/'>",
+			"'",
+			" '",
+			"UTF",
+			"'",
+			"5",
+			"body",
+			"accusamus",
+			"p",
+			"></",
+			"body",
+			">\n",
+			"Container",
+			"I",
+			"Arizona",
+			"Paso",
+			"El",
+			"texas",
+			"Texas",
+			"the",
+			"Gonzales",
+			"<!"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/adamgonzls/Self Study/in-easy-steps/chapter-03/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 184,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								157,
+								157
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/adamgonzls/Self Study/in-easy-steps/chapter-03/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2931,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2809,
+								2809
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1834.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "javascript-in-easy-steps.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Projects/rockit projects.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 237.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

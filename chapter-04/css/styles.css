@@ -1,0 +1,13 @@
+body {
+	background-color: #eee;
+}
+
+#panel {
+	color: orange;
+	background-color: #999;
+	text-align: center;
+}
+
+hr {
+	border-color: red;
+}
