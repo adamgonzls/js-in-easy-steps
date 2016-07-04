@@ -1,0 +1,12 @@
+body {
+	margin: 0;
+	background-color: #d7edf8;
+}
+.page-wrapper {
+	padding: 3em;
+}
+#panel {
+	color: #c64187;
+	background-color: #a3d1e6;
+	padding: 2em;
+}
