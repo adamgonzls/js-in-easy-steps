@@ -33,10 +33,29 @@
 // document.addEventListener('DOMContentLoaded', init, false);
 
 // displaying dialog messages
+// function init() {
+// 	var panel = document.getElementById( 'panel' );
+// 	window.alert( "Here's a simple message." );
+// 	panel.innerHTML = 'Confirm: ' + window.confirm('Go or Stop?');
+// 	panel.innerHTML += '<br>Prompt: ' + window.prompt('Yes or No?', 'Yes');
+// }
+// document.addEventListener( 'DOMContentLoaded', init, false );
+
+// scrolling and moving position
+// function init() {
+// 	var i, panel = document.getElementById('panel');
+// 	for (i = 1; i < 501; i++) {
+// 		panel.innerHTML += i + '<br>';
+// 	}
+// 	window.scrollBy(0, 500);
+// 	window.moveTo(0, 0);
+// }
+// document.addEventListener('DOMContentLoaded', init, false);
+
+// opening new windows
 function init() {
-	var panel = document.getElementById( 'panel' );
-	window.alert( "Here's a simple message." );
-	panel.innerHTML = 'Confirm: ' + window.confirm('Go or Stop?');
-	panel.innerHTML += '<br>Prompt: ' + window.prompt('Yes or No?', 'Yes');
+	var panel = document.getElementById('panel');
+	panel.innerHTML = 'Regular information in the main window';
+	var winObject = window.open('pop.html', 'windowName', "top=200,left=100,width=450,height=100,status=yes");
 }
-document.addEventListener( 'DOMContentLoaded', init, false );
+document.addEventListener('DOMContentLoaded', init, false);
