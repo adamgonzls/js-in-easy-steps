@@ -53,9 +53,23 @@
 // document.addEventListener('DOMContentLoaded', init, false);
 
 // opening new windows
+// function init() {
+// 	var panel = document.getElementById('panel');
+// 	panel.innerHTML = 'Regular information in the main window';
+// 	var winObject = window.open('pop.html', 'windowName', "top=200,left=100,width=450,height=100,status=yes");
+// }
+// document.addEventListener('DOMContentLoaded', init, false);
+
+// making a window timer
+var counter = 0;
 function init() {
-	var panel = document.getElementById('panel');
-	panel.innerHTML = 'Regular information in the main window';
-	var winObject = window.open('pop.html', 'windowName', "top=200,left=100,width=450,height=100,status=yes");
+	var timerId, panel = document.getElementById('panel');
+	counter++;
+	panel.innerHTML += "<span style='background:black; color:white; margin:2px;'>" + counter + "</span>";
+	if (counter > 19) {
+		{window.clearTimeout(timerId);}
+	} else {
+		timerId = window.setTimeout(init, 1000);
+	}
 }
 document.addEventListener('DOMContentLoaded', init, false);
