@@ -53,9 +53,75 @@
 // document.addEventListener('DOMContentLoaded', init, false);
 
 // opening new windows
+// function init() {
+// 	var panel = document.getElementById('panel');
+// 	panel.innerHTML = 'Regular information in the main window';
+// 	var winObject = window.open('pop.html', 'windowName', "top=200,left=100,width=450,height=100,status=yes");
+// }
+// document.addEventListener('DOMContentLoaded', init, false);
+
+// querying the browser
+// function init() {
+// 	var panel = document.getElementById("panel");
+// 	panel.innerHTML += "Browser: " + navigator.appName;
+// 	panel.innerHTML += "<br>Code Name: " + navigator.appCodeName;
+// 	panel.innerHTML += "<br>Version: " + navigator.appVersion;
+// 	panel.innerHTML += "<br>Platform: " + navigator.platform;
+// 	if (document.addEventListener) {
+// 		panel.innerHTML += "<br>This is a Modern DOM Browser"
+// 	}
+// }
+// document.addEventListener("DOMContentLoaded", init, false);
+
+// Discovering what is enabled
+// function init() {
+// 	var panel = document.getElementById( "panel" );
+// 	if ( navigator.javaEnabled() ) {
+// 		panel.innerHTML = "Java Support is Enabled";
+// 	}
+// 	if ( navigator.plugins.length !== 0 ) {
+// 		panel.innerHTML += "<hr>Total Plugins: " + navigator.plugins.length;
+// 		panel.innerHTML += "<br>Example: " + navigator.plugins[ 1 ].name;
+// 		panel.innerHTML += " - " + navigator.plugins[ 1 ].description;
+// 	}
+// 	pluginArray = navigator.plugins;
+// 	console.log(pluginArray);
+// 	for ( i = 0; i < pluginArray.length; i++ ) {
+// 		panel.innerHTML += "<br>Plugin: " + pluginArray[i].name;
+// 		console.log(pluginArray[i].name)
+// 	}
+// 	if ( navigator.mimeTypes.length !== 0 ) {
+// 		panel.innerHTML += "<hr>Total MIME Types: " + navigator.mimeTypes.length;
+// 		panel.innerHTML += "<br>Example: " + navigator.mimeTypes[ 1 ].type;
+// 		panel.innerHTML += " - " + navigator.mimeTypes[ 1 ].description;
+// 	}
+
+// }
+// document.addEventListener("DOMContentLoaded", init, false);
+
+// controlling location
+// function init() {
+// 	var panel = document.getElementById( "panel" );
+// 	panel.innerHTML = "<a name='frag'>Fragment Anchor</a>";
+// 	var jump = confirm( "Jump to fragment?" );
+// 	if ( jump ) {
+// 		location = location.href + "#frag";
+// 	}
+// 	panel.innerHTML += "<hr>Href: " + location.href;
+// 	panel.innerHTML += "<br>Protocol: " + location.protocol;
+// 	panel.innerHTML += "<br>Host: " + location.host;
+// 	panel.innerHTML += "<br>Path: " + location.pathname;
+// 	panel.innerHTML += "<br>Hash: " + location.hash;
+// }
+// document.addEventListener("DOMContentLoaded", init, false);
+
+// traveling through history
 function init() {
-	var panel = document.getElementById('panel');
-	panel.innerHTML = 'Regular information in the main window';
-	var winObject = window.open('pop.html', 'windowName', "top=200,left=100,width=450,height=100,status=yes");
+	var panel = document.getElementById( "panel" );
+	panel.innerHTML += "<a href='index.html'>Home</a>";
+	panel.innerHTML += "<br>History Length: " + history.length + "<br>";
+	panel.innerHTML += "Current Location: " + location.pathname + "<br>";
+	panel.innerHTML += "<button onclick='history.back()'>Back</button>";
+	panel.innerHTML += "<button onclick='history.forward()'>Forward</button>";
 }
-document.addEventListener('DOMContentLoaded', init, false);
+document.addEventListener( "DOMContentLoaded", init, false);
