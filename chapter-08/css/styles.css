@@ -1,0 +1,15 @@
+body {
+	background-color: #59595d;
+}
+
+.page-container {
+	background-color: #ebcaa9;
+	color: #fff;
+	margin: 3.5em;
+	padding: 2em;
+	font-family: 'Cabin', sans-serif;
+}
+
+.page-container h1 {
+	font-family: 'Old Standard TT', serif;
+}
