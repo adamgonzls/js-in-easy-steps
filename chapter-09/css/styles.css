@@ -1,0 +1,11 @@
+body {
+	background-color: #cdda97;
+}
+
+#panel {
+	margin: 50px;
+	padding: 25px;
+	background-color: #fefefe;
+	border-radius: 5px;
+	border: 2px solid #a7998b;
+}
