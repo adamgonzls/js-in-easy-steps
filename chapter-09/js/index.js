@@ -13,29 +13,54 @@
 // document.addEventListener("DOMContentLoaded", init, false);
 
 // responding to button clicks
-function clickResponse() {
-	this.innerHTML += "Click detected<hr>";
+// function clickResponse() {
+// 	this.innerHTML += "Click detected<hr>";
+// }
+
+// function dblclickResponse() {
+// 	this.innerHTML += "Doubleclick detected<br>";
+// }
+
+// function mousedownResponse() {
+// 	this.innerHTML += "Mouse button down<br>";
+// }
+
+// function mouseupResponse() {
+// 	this.innerHTML += "Mouse button up<br>";
+// }
+
+
+// function init() {
+// 	var panel = document.getElementById("panel");
+// 	panel.innerHTML = "Click here &gt;<br>";
+// 	panel.onclick = clickResponse;
+// 	panel.ondblclick = dblclickResponse;
+// 	panel.onmouseup = mouseupResponse;
+// 	panel.onmousedown = mousedownResponse;
+// }
+// document.addEventListener("DOMContentLoaded", init, false);
+
+// acknowledging key strokes
+var panel;
+
+function keydownResponse() {
+	panel.innerHTML += "<br>Key Pressed: ";
 }
 
-function dblclickResponse() {
-	this.innerHTML += "Doubleclick detected<br>";
+function keyupResponse() {
+	panel.innerHTML += "<br>Key Released";
 }
 
-function mousedownResponse() {
-	this.innerHTML += "Mouse button down<br>";
+function keypressResponse(e) {
+	var keynum = (window.event) ? event.keyCode : e.which;
+	panel.innerHTML += String.fromCharCode(keynum);
 }
-
-function mouseupResponse() {
-	this.innerHTML += "Mouse button up<br>";
-}
-
 
 function init() {
-	var panel = document.getElementById("panel");
-	panel.innerHTML = "Click here &gt;<br>";
-	panel.onclick = clickResponse;
-	panel.ondblclick = dblclickResponse;
-	panel.onmouseup = mouseupResponse;
-	panel.onmousedown = mousedownResponse;
+	panel = document.getElementById("panel");
+	panel.innerHTML = "Press a key...<br>";
+	document.onkeydown = keydownResponse;
+	document.onkeyup = keyupResponse;
+	document.onkeypress = keypressResponse;
 }
 document.addEventListener("DOMContentLoaded", init, false);
