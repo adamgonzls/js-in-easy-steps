@@ -8,6 +8,7 @@ body {
 	margin: 3.5em;
 	padding: 2em;
 	font-family: 'Cabin', sans-serif;
+	border-radius: 10px;
 }
 
 .page-container h1 {
