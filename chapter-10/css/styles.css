@@ -1,0 +1,10 @@
+body {
+	background: #ecead0;
+}
+
+#panel {
+	margin: 50px;
+	padding: 50px;
+	border: 5px solid #bcc1dc;
+	background: #fff;
+}
