@@ -48,27 +48,52 @@
 // document.addEventListener("DOMContentLoaded", init, false);
 
 // rotating image source
-var i, imgs, pic;
+// var i, imgs, pic;
 
-function rotate() {
-	//assign image url
-	pic.src = imgs[i]; 
-	//change the counter
-	(i === (imgs.length - 1)) ? (i = 0) : (i++);
-	setTimeout(rotate, 1000);
+// function rotate() {
+// 	//assign image url
+// 	pic.src = imgs[i]; 
+// 	//change the counter
+// 	(i === (imgs.length - 1)) ? (i = 0) : (i++);
+// 	setTimeout(rotate, 1000);
+// }
+
+// function init() {
+// 	pic = document.getElementById("pic");
+// 	imgs = ["../images/query.png", "../images/warn.png", "../images/stop.png", "../images/info.png"];
+
+// 	var preload = new Array();
+// 	for (i = 0; i < imgs.length; i++) {
+// 		preload[i] = new Image();
+// 		preload[i].src = imgs[i]
+// 	}
+
+// 	i = 0;
+// 	rotate();
+// }
+// document.addEventListener("DOMContentLoaded", init, false);
+
+// enlarging thumbnails
+var box;
+
+function zoomIn() {
+	var filename = this.src.split("_thumb.png");
+	box.style.background = "url(" + filename[0] + ".png)";
+	
+}
+
+function zoomOut() {
+	box.style.background = "inherit";
 }
 
 function init() {
-	pic = document.getElementById("pic");
-	imgs = ["../images/query.png", "../images/warn.png", "../images/stop.png", "../images/info.png"];
+	box = document.getElementById("zoomBox");
+	var heli = document.getElementById("heli");
+	heli.onmouseover = zoomIn;
+	heli.onmouseout = zoomOut;
 
-	var preload = new Array();
-	for (i = 0; i < imgs.length; i++) {
-		preload[i] = new Image();
-		preload[i].src = imgs[i]
-	}
-
-	i = 0;
-	rotate();
+	var car = document.getElementById("car");
+	car.onmouseover = zoomIn;
+	car.onmouseout = zoomOut;
 }
 document.addEventListener("DOMContentLoaded", init, false);
