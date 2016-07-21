@@ -6,13 +6,28 @@
 	<link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-	<form id="book" action="">
+	<!-- <form id="book" action="">
 		<div id="panel">
 			<input type="text" id="title"><br>
 			<input type="text" id="author">
 			<input type="submit" value="Submit">
 		</div>
+	</form> -->
+
+	<!-- <form action="echo.pl" id="lang" method="POST">
+		<input type="text" id="txt" size="30" value="JavaScript">
+		<input type="reset">
 	</form>
+	<div id="panel"></div> -->
+
+	<form action="echo.pl" id="contact" method="POST">
+		Name: <input type="text" size="30" name="Name"><br>
+		Email: <input type="text" size="30" name="Email">
+		<input type="submit">
+	</form>
+		
+		<div id="panel"></div>
+
 	<script type="text/javascript" src="./js/index.js"></script>
 </body>
 </html>
