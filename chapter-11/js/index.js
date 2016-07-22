@@ -74,26 +74,57 @@
 // document.addEventListener("DOMContentLoaded", init, false);
 
 // enlarging thumbnails
-var box;
+// var box;
 
-function zoomIn() {
-	var filename = this.src.split("_thumb.png");
-	box.style.background = "url(" + filename[0] + ".png)";
+// function zoomIn() {
+// 	var filename = this.src.split("_thumb.png");
+// 	box.style.background = "url(" + filename[0] + ".png)";
 	
-}
+// }
 
-function zoomOut() {
-	box.style.background = "inherit";
+// function zoomOut() {
+// 	box.style.background = "inherit";
+// }
+
+// function init() {
+// 	box = document.getElementById("zoomBox");
+// 	var heli = document.getElementById("heli");
+// 	heli.onmouseover = zoomIn;
+// 	heli.onmouseout = zoomOut;
+
+// 	var car = document.getElementById("car");
+// 	car.onmouseover = zoomIn;
+// 	car.onmouseout = zoomOut;
+// }
+// document.addEventListener("DOMContentLoaded", init, false);
+
+// animating elements
+var obj, w, goRight;
+
+function setSail() {
+	var pos = parseInt(obj.style.left, 10);
+	(goRight) ? pos++ : pos--;
+	obj.style.left = pos + "px";
+	if (pos > (w + 40)) {
+		obj.style.background = "url(./images/sail_l.png)";
+		goRight = false;
+	}
+
+	if (pos < -140) {
+		obj.style.background = "url(./images/sail_r.png)";
+		goRight = true;
+	}
+	setTimeout(setSail, 10);
 }
 
 function init() {
-	box = document.getElementById("zoomBox");
-	var heli = document.getElementById("heli");
-	heli.onmouseover = zoomIn;
-	heli.onmouseout = zoomOut;
-
-	var car = document.getElementById("car");
-	car.onmouseover = zoomIn;
-	car.onmouseout = zoomOut;
+	var preload = new Image()
+	preload.src = "./images/sail_l.png";
+	obj = document.getElementById("boat");
+	w = document.body.clientWidth;
+	goRight = true;
+	obj.style.position = "absolute";
+	obj.style.left = "-120px";
+	setSail();
 }
 document.addEventListener("DOMContentLoaded", init, false);
