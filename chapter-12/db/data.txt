@@ -1,1 +1,1 @@
-﻿This is simple text in the data.txt file.
+﻿This is simple text in the data.txt file. I will be seen in your browser.
