@@ -1,0 +1,9 @@
+﻿table { text-align : center }
+td { width : 50px ; height : 20px }
+td.col { background : #93b3cf }
+td.row { background : #938c8e }
+td.tot { background : #e0836e ; color : white }
+td.gto { background : #d5c6a7 }
+div#databox { width : 360px ; padding : 5px ; margin:auto }
+fieldset#editbox { width : 360px ; padding : 5px ; margin : auto ; border : 1px solid #e0836e ; color : #e0836e }
+legend#title { background : #e0836e ; color : white }
